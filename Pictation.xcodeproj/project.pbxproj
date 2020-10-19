@@ -15,6 +15,7 @@
 		3E50721B253DD5BD00C34C9A /* Pictation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E507219253DD5BD00C34C9A /* Pictation.xcdatamodeld */; };
 		3E507226253DD5BD00C34C9A /* PictationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E507225253DD5BD00C34C9A /* PictationTests.swift */; };
 		3E507231253DD5BD00C34C9A /* PictationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E507230253DD5BD00C34C9A /* PictationUITests.swift */; };
+		3E507245253DD9F000C34C9A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E507244253DD9F000C34C9A /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3E50722C253DD5BD00C34C9A /* PictationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E507230253DD5BD00C34C9A /* PictationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictationUITests.swift; sourceTree = "<group>"; };
 		3E507232253DD5BD00C34C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E507244253DD9F000C34C9A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				3E50720E253DD5BB00C34C9A /* PictationApp.swift */,
 				3E507210253DD5BB00C34C9A /* ContentView.swift */,
+				3E507244253DD9F000C34C9A /* MapView.swift */,
 				3E507212253DD5BD00C34C9A /* Assets.xcassets */,
 				3E507217253DD5BD00C34C9A /* Persistence.swift */,
 				3E50721C253DD5BD00C34C9A /* Info.plist */,
@@ -267,6 +270,7 @@
 			files = (
 				3E507218253DD5BD00C34C9A /* Persistence.swift in Sources */,
 				3E50721B253DD5BD00C34C9A /* Pictation.xcdatamodeld in Sources */,
+				3E507245253DD9F000C34C9A /* MapView.swift in Sources */,
 				3E507211253DD5BB00C34C9A /* ContentView.swift in Sources */,
 				3E50720F253DD5BB00C34C9A /* PictationApp.swift in Sources */,
 			);
